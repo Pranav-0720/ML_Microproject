@@ -1,0 +1,63 @@
+[
+  {
+    "file": "CenterSectorScheme2021-22.csv",
+    "rows": 772,
+    "columns": 16,
+    "duplicate_rows": 0,
+    "missing": {
+      "Category": 1,
+      "Sl.No.": 67,
+      "Ministry/Department": 1,
+      "Scheme": 0,
+      "Actuals2019-2020 - Revenue": 226,
+      "Actuals2019-2020 - Capital": 559,
+      "Actuals2019-2020 - Total": 122,
+      "Budget Estimates2020-2021 - Revenue": 212,
+      "Budget Estimates2020-2021 - Capital": 557,
+      "Budget Estimates2020-2021 - Total": 102,
+      "Revised Estimates2020-2021 - Revenue": 221,
+      "Revised Estimates2020-2021 - Capital": 564,
+      "Revised Estimates2020-2021 - Total": 113,
+      "Budget Estimates2021-2022 - Revenue": 216,
+      "Budget Estimates2021-2022 - Capital": 560,
+      "Budget Estimates2021-2022 - Total": 106
+    }
+  },
+  {
+    "file": "indian_government_schemes.csv",
+    "rows": 4702,
+    "columns": 29,
+    "duplicate_rows": 0,
+    "missing": {
+      "scheme_id": 0,
+      "scheme_name": 0,
+      "scheme_category": 0,
+      "scheme_category_clean": 0,
+      "issuing_authority": 0,
+      "issuing_authority_normalized": 0,
+      "min_age": 3636,
+      "max_age": 3911,
+      "max_annual_income": 3909,
+      "min_age_inferred": 4061,
+      "max_age_inferred": 4061,
+      "income_inferred": 4561,
+      "allowed_occupations": 1952,
+      "allowed_social_categories": 3917,
+      "required_disability_status": 4393,
+      "state_restricted_to_normalized": 0,
+      "gender_restricted_to": 0,
+      "is_national_scheme": 0,
+      "eligibility_text_clean": 0,
+      "benefit_summary": 0,
+      "benefit_value_estimate": 1,
+      "benefit_value_numeric": 864,
+      "benefit_currency": 0,
+      "required_documents": 0,
+      "application_url": 0,
+      "official_source_url": 0,
+      "last_verified_date": 0,
+      "eligibility_verified": 0,
+      "data_quality_score": 0
+    }
+  }
+]

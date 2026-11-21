@@ -1,0 +1,110 @@
+[
+  {
+    "id": "pmuy",
+    "name": "Pradhan Mantri Ujjwala Yojana",
+    "category": "Household energy",
+    "state": "Nationwide",
+    "purpose": "Expand access to clean cooking fuel.",
+    "benefit": "Deposit-free LPG connection, first refill and stove, subject to the program terms.",
+    "documents": "KYC, Aadhaar copies, household composition proof, address proof where applicable, bank proof and deprivation declaration.",
+    "source": "https://pmuy.gov.in/Ujjwala2.html",
+    "apply": "https://pmuy.gov.in/Ujjwala2.html",
+    "rules": [
+      [
+        "age",
+        "min",
+        18,
+        "Applicant is at least 18"
+      ],
+      [
+        "woman",
+        "eq",
+        "Yes",
+        "Applicant is a woman"
+      ],
+      [
+        "lpg",
+        "eq",
+        "No",
+        "Household has no existing LPG connection"
+      ],
+      [
+        "deprivation",
+        "eq",
+        "Yes",
+        "Household qualifies under the prescribed deprivation declaration"
+      ]
+    ],
+    "reviewed": "2026-11-21"
+  },
+  {
+    "id": "pmkisan",
+    "name": "Pradhan Mantri Kisan Samman Nidhi",
+    "category": "Agriculture",
+    "state": "Nationwide",
+    "purpose": "Provide income support to qualifying landholding farmer families.",
+    "benefit": "₹6,000 per year per qualifying family in three installments.",
+    "documents": "Land records or locally accepted evidence, identity documentation and payment details as required by the authorities.",
+    "source": "https://pmkisan.gov.in/Documents/RevisedPM-KISANOperationalGuidelines%28English%29.pdf",
+    "apply": "https://www.pmkisan.gov.in/",
+    "rules": [
+      [
+        "land",
+        "eq",
+        "Yes",
+        "Family owns cultivable land"
+      ],
+      [
+        "kisan_excluded",
+        "eq",
+        "No",
+        "No official exclusion applies to the family"
+      ],
+      [
+        "land_verified",
+        "verify",
+        "Yes",
+        "Land records, ownership timing and regional exceptions confirmed by the authority"
+      ]
+    ],
+    "reviewed": "2026-11-21"
+  },
+  {
+    "id": "maha_dte",
+    "name": "Rajarshi Chhatrapati Shahu Maharaj Shikshan Shulkh Shishyavrutti Yojna (DTE)",
+    "category": "Education",
+    "state": "Maharashtra",
+    "purpose": "Support qualifying students in eligible technical or professional courses.",
+    "benefit": "Tuition and exam fee support as set out by MahaDBT for the applicable category and academic year.",
+    "documents": "Marksheets, Maharashtra domicile certificate, family income certificate, CAP documents and applicable declarations.",
+    "source": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A7F4D327BDEB7125DE0BA4AE1C51180C272281017EBEF6F7C",
+    "apply": "https://mahadbt.maharashtra.gov.in/",
+    "rules": [
+      [
+        "student",
+        "eq",
+        "Yes",
+        "Applicant is enrolled as a student"
+      ],
+      [
+        "domicile",
+        "eq",
+        "Yes",
+        "Applicant has Maharashtra domicile"
+      ],
+      [
+        "income",
+        "max",
+        800000,
+        "Annual family income is ₹8 lakh or below"
+      ],
+      [
+        "dte_verified",
+        "verify",
+        "Yes",
+        "Remaining DTE conditions confirmed against MahaDBT (Indian nationality, EBC/EWS, CAP admission, eligible course and institution, other benefits, family limits and academic rules)"
+      ]
+    ],
+    "reviewed": "2026-11-21"
+  }
+]
